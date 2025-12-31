@@ -1,10 +1,6 @@
-"""
-Main agentic RAG system using CrewAI.
-"""
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env file FIRST, before any imports that need API keys
 load_dotenv()
 
 from agents import create_research_crew
@@ -78,7 +74,7 @@ def interactive_mode():
             print("=" * 50)
             print(answer)
         except Exception as e:
-            print(f"\n❌ Error: {e}")
+            print(f"\n Error: {e}")
 
 
 if __name__ == "__main__":
