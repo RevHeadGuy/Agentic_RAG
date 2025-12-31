@@ -1,6 +1,3 @@
-"""
-Example usage of the Agentic RAG system.
-"""
 from agentic_rag import query_research_paper, initialize_system
 
 
