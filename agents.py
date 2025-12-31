@@ -15,7 +15,7 @@ from vector_store import search_research_paper
 
 # Initialize LLM
 llm = ChatOpenAI(
-    model="gpt-4o",  # Using gpt-4o (more accessible) - can also use "gpt-3.5-turbo" or "gpt-4-turbo"
+    model="gpt-4o",
     temperature=0.7
 )
 
